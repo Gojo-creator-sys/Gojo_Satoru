@@ -87,5 +87,5 @@ watchFile(file, () => {
   console.log(chalk.redBright("Update 'config.js'"))
   import(`${file}?update=${Date.now()}`)
 })
-global.menu = 'https://pin.it/4BKKkSAiU'
+global.menu = 'https://files.catbox.moe/9vh1i0.jpg'
   
