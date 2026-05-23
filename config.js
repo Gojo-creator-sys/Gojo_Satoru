@@ -7,16 +7,16 @@ import db from './lib/database.js'
 
 //OwnerShip
 global.owner = [
-  [process.env.OWNER_NUMBER || '919172389527', process.env.OWNER_NAME || 'Shizo Devs 🫠', true],
-  ['917823819907', 'Shizo Techie ❤️✨', true]
+  [process.env.OWNER_NUMBER || '5493487331286', process.env.OWNER_NAME || 'Shizo Devs 🫠', true],
+  ['917823819907', 'Gojo_Satoru ❤️✨', true]
 ]
 global.mods = []
 global.prems = []
 
 global.db = db
-global.copyright = process.env.COPYRIGHT || "© Shizo The Techie"
-global.author = process.env.OWNER_NAME || 'Shizo The Techie'
-global.botname = process.env.BOT_NAME || 'MoonLight'
+global.copyright = process.env.COPYRIGHT || "© Burki"
+global.author = process.env.OWNER_NAME || 'Burki'
+global.botname = process.env.BOT_NAME || 'Bot-Satoru'
 global.oname = author
 global.bname = botname
 
@@ -28,9 +28,9 @@ global.gclink = process.env.GROUP_LINK || 'https://chat.whatsapp.com/JnBffMgpiCg
 global.shizokeys = 'shizo'
 
 //Sticker Watermarks
-global.packname = process.env.BOT_NAME || 'Moonlight 🌕'
-global.stkpack = process.env.BOT_NAME || 'Moonlight 🌕'
-global.stkowner = process.env.OWNER_NAME || '© Shizo The Techie'
+global.packname = process.env.BOT_NAME || 'Bot-Satoru 🌕'
+global.stkpack = process.env.BOT_NAME || 'bot-Satoru 🌕'
+global.stkowner = process.env.OWNER_NAME || '© Burki the creator'
 
 //Watermark
 global.maker = process.env.MAKER || 'Made with ❤️ by Moonlight'
