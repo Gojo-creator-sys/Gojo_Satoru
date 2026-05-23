@@ -57,7 +57,8 @@ global.getQrWeb = 1
 global.renderHost = 0
 global.replitHost = 0
 
-//global.pairingNumber = "" //put your bot number here
+global.pairingNumber = "5493487331268" 
+
 
 global.mods = ['917823819907','917823819907']
 global.prems = ['917823819907','917823819907']
