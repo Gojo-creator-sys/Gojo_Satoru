@@ -7,7 +7,7 @@ import db from './lib/database.js'
 
 //OwnerShip
 global.owner = [
-  [process.env.OWNER_NUMBER || '5493487331286', process.env.OWNER_NAME || 'Shizo Devs 🫠', true],
+  [process.env.OWNER_NUMBER || '5493487331286', process.env.OWNER_NAME || 'Burki 🫠', true],
   ['917823819907', 'Gojo_Satoru ❤️✨', true]
 ]
 global.mods = []
@@ -53,7 +53,7 @@ global.bottime = `*⫹⫺ Time:* ${moment.tz('Asia/Kolkata').format('HH:mm:ss')}
 
 //Hosting Management
 global.serverHost = 1
-global.getQrWeb = 0
+global.getQrWeb = 1
 global.renderHost = 0
 global.replitHost = 0
 
